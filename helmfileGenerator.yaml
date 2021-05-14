@@ -1,0 +1,9 @@
+apiVersion: aTeam/v1alpha1
+kind: HelmfileGenerator
+metadata:
+  name: whatever
+
+# TODO: configuration is being ignored in the current version of HelmfileGenerator
+# these parameters next are left as an example of potential future features
+helmfileArgs: --debug
+templateArgs: --skip-deps
